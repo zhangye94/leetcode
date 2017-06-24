@@ -15,7 +15,7 @@ public class P11ContainerWithMostWater {
 			if(height[left]<height[right]){
 				left ++;
 			}else{
-				right --;
+				right--;
 			}
 		}
 		return area;
